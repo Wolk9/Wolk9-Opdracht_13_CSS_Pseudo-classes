@@ -1,0 +1,33 @@
+/** Reset everything to 0 **/
+
+*,
+*::before,
+*::after {
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Declare Global settings */
+* {
+  font-family: "Lato", sans-serif;
+  letter-spacing: -0.2pt;
+}
+
+.link1:hover {
+  color: rgb(42, 197, 248);
+  font-weight: bold;
+}
+
+.link2:active {
+  color: red;
+  font-style: italic;
+}
+
+.link3:visited {
+  color: yellow;
+}
+
+input:focus {
+  color: green;
+  font-size: 20px;
+}
