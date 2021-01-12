@@ -27,7 +27,57 @@
   color: yellow;
 }
 
-input:focus {
+form > .invul-veld:focus {
   color: green;
   font-size: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+li > a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  background-color: #f1f1f1;
+  width: auto;
+  height: 50px;
+  margin: 10px 10px 10px 0px;
+  padding: 10px 15px 10px 15px;
+  font-size: 20px;
+  border-radius: 5pt;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: lightblue;
+  color: white;
+  width: auto;
+  height: 50px;
+  margin: 10px 10px 10px 0px;
+  padding: 10px 15px 10px 15px;
+  font-size: 20px;
+  border-radius: 5pt;
+}
+
+li > input:focus {
+  color: black;
+  border-color: aqua;
+  border-style: solid;
+  border-width: 8px;
+}
+
+.currentPage {
+  background-color: rgb(157, 186, 187);
+  color: white;
 }
